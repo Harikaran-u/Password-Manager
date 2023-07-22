@@ -1,0 +1,154 @@
+.home-cont {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100%;
+  padding: 50px;
+}
+.app-logo {
+  width: 128px;
+  height: 42px;
+}
+.pwd-mn-img {
+  width: 26%;
+}
+.input-logo {
+  height: 21px;
+  width: 21px;
+}
+.input-data {
+  outline: none;
+  padding: 10px;
+  border: 0px;
+  border-left: 1px solid #b6c3ca;
+  margin-left: 10px;
+  width: 286px;
+}
+.top-level-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #5763a5;
+  width: 1200px;
+  height: 476px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.data-entry-card {
+  border-radius: 2px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.data-entry-cont {
+  background-color: #454f84;
+  padding: 50px;
+  border-radius: 12px;
+}
+.form-cont {
+  display: flex;
+  flex-direction: column;
+}
+.add-btn {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  border: 0px solid;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  height: 36px;
+  width: 84px;
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;
+}
+.entry-head {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #f8fafc;
+}
+.bottom-level-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #5763a5;
+  width: 1200px;
+  height: 576px;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.your-pwd-search-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.password-count-cont {
+  display: flex;
+  align-items: center;
+}
+.search-input-cont {
+  border-radius: 2px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.hr-line {
+  width: 100%;
+}
+.your-password {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ffffff;
+}
+.count {
+  height: 28px;
+  width: 28px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  border-radius: 16px;
+  margin-left: 10px;
+  text-align: center;
+  padding: 6px;
+}
+.no-pwd-img {
+  width: 36%;
+  margin-top: 20px;
+}
+.no-password {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ffffff;
+}
+.no-passwords-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.show-pwd-cont {
+  align-self: flex-end;
+  display: flex;
+}
+.show-pwd-label {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #ffffff;
+  align-self: center;
+}
+.checkBox {
+  height: 24px;
+  width: 24px;
+}
+.saved-pwd-list-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
